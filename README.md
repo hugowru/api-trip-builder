@@ -1,8 +1,8 @@
 # api-trip-builder
 Requirements:
-- PHP 8
-- MySQL
-- Apache server
+- PHP 8 (min)
+- MySQL 15.1 (min)
+- Apache server 2.2 (min)
 Suggestion: Use XAMPP Stack Package to run a local web server and it can be installed in Windows, Linux or Mac 
 
 Installation instructions
@@ -57,3 +57,7 @@ Testing examples:
 http://localhost/flighth_assignment/index.php/trip/flights?departure_airport=YUL&arrival_airport=LAX&departure_date=2023-01-09&return_date=2023-01-11&trip_type=round-trip
 - One way trip from YUL airport to YVR airport on January 09th, 2023 and returning on January 11th, 2023.
 http://localhost/flighth_assignment/index.php/trip/flights?departure_airport=YUL&arrival_airport=YVR&departure_date=2023-01-09&return_date=2023-01-11&trip_type=one-way
+
+
+Live test:
+https://hjacobo.com/flighth_assignment/index.php/trip/flights?departure_airport=YUL&arrival_airport=LAX&departure_date=2023-01-09&return_date=2023-01-11&trip_type=round-trip
