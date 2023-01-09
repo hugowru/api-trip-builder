@@ -13,7 +13,7 @@ Installation instructions
 
 Quick test
 
-If everything was installed correctly you can try to access to the next url from the browser: http://localhost/flighth_assignment/index.php/trip/list?limit=2 in that way you will see 2 flighs storored in the database. In other case, verify the config.php file information. 
+If everything was installed correctly you can try to access to the next URL from the browser: http://localhost/flighth_assignment/index.php/trip/list?limit=2 in that way you will see 2 flights stored in the database. In other case, verify the config.php file information. 
 
 About this API
 
@@ -24,15 +24,15 @@ Methods
 
 Method "list"
 This method shows all the flights available in the database.
-Paramether "limit". it allows to restrict the results to show in the request, by (not adding the parameter it is 10), in other case you can set any number.
+Parameter "limit". it allows to restrict the results to show in the request, by (not adding the parameter it is 10), in other case you can set any number.
 Examples:
 -   http://localhost/flighth_assignment/index.php/trip/list (it will show 10 results)
 -   http://localhost/flighth_assignment/index.php/trip/list?limit=2 (it will show 2 results)
 -   http://localhost/flighth_assignment/index.php/trip/list?limit=23 (it will show 23 results)
 
 Method "flight"
-This nethod allow to test the search the flight option from airport A to airport B (one way trip) and from airport B to airport A (round trip).
-It is nescesary to add the next parameters:
+This Method allow to test the search the flight option from airport A to airport B (one way trip) and from airport B to airport A (round trip).
+It is necessary to add the next parameters:
 - departure_airport
 - arrival_airport
 - departure_date
